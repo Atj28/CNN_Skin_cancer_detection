@@ -42,18 +42,18 @@ This project aims to develop a **CNN-based deep learning model** that can evalua
 
 ## **Results & Conclusions**  
 ### **1. Baseline Model (Without Dropout & Augmentation)**  
-- **Training Accuracy:** ~98%  
-- **Validation Accuracy:** ~75%  
+- **Training Accuracy:** ~92%  
+- **Validation Accuracy:** ~51%  
 - **Observation:** The model **overfitted** to the training data, leading to poor generalization.  
 
 ### **2. Model with Dropout Regularization**  
-- **Training Accuracy:** ~90%  
-- **Validation Accuracy:** ~82%  
+- **Training Accuracy:** ~66%  
+- **Validation Accuracy:** ~51%  
 - **Observation:** Dropout **reduced overfitting** and improved validation accuracy.  
 
 ### **3. Model with Data Augmentation**  
-- **Training Accuracy:** ~87%  
-- **Validation Accuracy:** ~85%  
+- **Training Accuracy:** ~81%  
+- **Validation Accuracy:** ~62%  
 - **Observation:** Data augmentation **improved generalization**, exposing the model to more diverse samples.  
 
 ### **Key Takeaways**  
